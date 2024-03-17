@@ -30,6 +30,7 @@
 #include "libavutil/time.h"
 
 #include "libavcodec/internal.h"
+#include "libavcodec/to_upper4.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

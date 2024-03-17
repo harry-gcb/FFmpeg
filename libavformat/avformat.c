@@ -30,6 +30,7 @@
 #include "libavutil/opt.h"
 #include "libavutil/pixfmt.h"
 #include "libavutil/samplefmt.h"
+#include "libavutil/internal.h"
 #include "libavcodec/avcodec.h"
 #include "libavcodec/codec.h"
 #include "libavcodec/bsf.h"

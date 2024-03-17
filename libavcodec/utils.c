@@ -33,6 +33,7 @@
 #include "libavutil/pixdesc.h"
 #include "libavutil/imgutils.h"
 #include "libavutil/pixfmt.h"
+#include "libavutil/internal.h"
 #include "avcodec.h"
 #include "codec.h"
 #include "codec_desc.h"

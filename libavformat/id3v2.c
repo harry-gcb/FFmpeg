@@ -36,6 +36,7 @@
 #include "libavutil/bprint.h"
 #include "libavutil/dict.h"
 #include "libavutil/intreadwrite.h"
+#include "libavutil/internal.h"
 #include "libavcodec/png.h"
 #include "avio_internal.h"
 #include "demux.h"

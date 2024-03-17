@@ -27,6 +27,8 @@
 #include "mem.h"
 #include "samplefmt.h"
 #include "hwcontext.h"
+#include "internal.h"
+#include "intmath.h"
 
 static void get_frame_defaults(AVFrame *frame)
 {

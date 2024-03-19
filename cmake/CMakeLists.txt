@@ -10,3 +10,5 @@ include(swresample.cmake)
 include(postproc.cmake)
 
 include(ffprobe.cmake)
+include(ffplay.cmake)
+include(ffmpeg.cmake)

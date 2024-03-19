@@ -30,6 +30,7 @@
 #include "libavutil/intreadwrite.h"
 #include "libavutil/mem_internal.h"
 #include "libavutil/pixdesc.h"
+#include "libavutil/internal.h"
 #include "config.h"
 #include "swscale_internal.h"
 #include "swscale.h"

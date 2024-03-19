@@ -24,6 +24,7 @@
 #include "mem_internal.h"
 #include "common.h"
 #include "attributes.h"
+#include "intmath.h"
 
 #ifdef TX_FLOAT
 #define TX_TAB(x) x ## _float

@@ -16,6 +16,9 @@ set(AVFORMAT_SRC_LIST
     ${PROJECT_SOURCE_DIR}/libavformat/url.c
     ${PROJECT_SOURCE_DIR}/libavformat/seek.c
     ${PROJECT_SOURCE_DIR}/libavformat/dump.c
+    ${PROJECT_SOURCE_DIR}/libavformat/mux.c
+    ${PROJECT_SOURCE_DIR}/libavformat/sdp.c
+    ${PROJECT_SOURCE_DIR}/libavformat/mux_utils.c
 )
 
 add_library(avformat STATIC)

@@ -42,6 +42,14 @@ set(AVUTIL_SRC_LIST
     ${PROJECT_SOURCE_DIR}/libavutil/timecode.c
     ${PROJECT_SOURCE_DIR}/libavutil/display.c
     ${PROJECT_SOURCE_DIR}/libavutil/stereo3d.c
+    ${PROJECT_SOURCE_DIR}/libavutil/fifo.c
+    ${PROJECT_SOURCE_DIR}/libavutil/tx.c
+    # ${PROJECT_SOURCE_DIR}/libavutil/tx_template.c
+    ${PROJECT_SOURCE_DIR}/libavutil/tx_float.c
+    ${PROJECT_SOURCE_DIR}/libavutil/tx_double.c
+    ${PROJECT_SOURCE_DIR}/libavutil/tx_int32.c
+    ${PROJECT_SOURCE_DIR}/libavutil/half2float.c
+    ${PROJECT_SOURCE_DIR}/libavutil/threadmessage.c
 )
 
 add_library(avutil STATIC)
